@@ -1,0 +1,63 @@
+
+Major Modules:
+
+	✔ Major module: Use a framework to build the backend. @done(25-08-06 17:12)
+		✔ In this major module, you are required to use a specific web framework for backend development: Fastify with Node.js . @done(25-08-06 17:12)
+
+	✔ Major module: Standard user management @started(25-08-06 17:10) @done(25-09-09 12:14) @lasted(4w5d19h4m57s)
+	includes :
+		✔ Users can securely subscribe to the website. @done(25-08-06 17:10)
+		✔ Registered users can securely log in. @done(25-08-06 17:10)
+		✔ Users can select a unique display name to participate in tournaments. @done(25-08-06 17:10)
+		✔ Users can update their information. @done(25-09-09 12:14)
+		✔ Users can upload an avatar, with a default option if none is provided. @started(25-08-06 17:10) @done(25-09-08 12:01) @lasted(4w4d18h51m41s)
+		✔ Users can add others as friends and view their online status. @done(25-09-04 15:05)
+		✔ User profiles display stats, such as wins and losses. @done(25-09-08 11:53)
+		✔ Each user has a Match History including 1v1 games, dates, and relevant details, accessible to logged-in users. @started(25-08-06 17:09) @done(25-08-11 14:07) @lasted(4d20h58m30s)
+
+
+	✔ Major module: Implement Two-Factor Authentication (2FA) and JWT. @done(25-09-10 15:37)
+	includes :
+		✔ Ensure that JWT tokens are issued and validated securely @done(25-08-06 17:13)
+		✔ Implement Two-Factor Authentication (2FA) such as a one-time code, in addition to their password. @done(25-09-10 15:37)
+		✔ Utilize JSON Web Tokens (JWT) as a secure method for authentication @started(25-08-06 17:13) @done(25-09-04 14:08) @lasted(4w20h55m27s)
+		✔ Provide a user-friendly setup process for enabling 2FA, with options for SMS codes, authenticator apps, or email-based verification @done(25-09-10 15:37)
+
+
+	✔ Major module: Replace Basic Pong with Server-Side Pong and Implementing an API. @started(25-08-06 17:14) @done(25-08-08 15:37) @lasted(1d22h23m40s)
+	includes:
+		✔ Develop server-side logic for the Pong game to handle gameplay, ball movement, scoring, and player interactions. @started(25-08-06 17:14) @done(25-08-08 15:37) @lasted(1d22h23m48s)
+		✔ Create an API that exposes the necessary resources and endpoints to interact with the Pong game @started(25-08-06 17:14) @done(25-08-08 15:37) @lasted(1d22h23m53s)
+		✔ Design and implement the API endpoints to support game initialization, player controls, and game state updates. @started(25-08-06 17:14) @done(25-08-08 15:37) @lasted(1d22h23m58s)
+		☐ Ensure that the server-side Pong game is responsive, providing an engaging and enjoyable gaming experience. //frontend
+		☐ Integrate the server-side Pong game with the web application, allowing users to play the game directly on the website. //frontend
+
+
+	☐ Major module: Live Chat. @started(25-08-06 17:16)
+	includes :
+		✔ The user should be able to send direct messages to other users. @done(25-08-22 14:08)
+		✔ The user should be able to block other users, preventing them from seeing any further messages from the blocked account. @done(25-09-04 14:04)
+		✔ The user should be able to invite other users to play a Pong game through the chat interface. @done(25-09-11 13:25)
+		✔ The tournament system should be able to notify users about the next game. @done(25-10-22 15:46)
+		✔ The user should be able to access other players profiles through the chat interface. @done(25-09-08 12:57)
+
+
+	✔ Major module: Remote players @done(25-08-11 15:41)
+	includes :
+		✔ It should be possible for two players to play remotely. Each player is located on a separated computer, accessing the same website and playing the same Pong game. @done(25-08-11 15:41)
+
+Minor Modules :
+
+	✔ Minor module: Use a database for the backend -and more. @done(25-08-06 17:11)
+		✔ The designated database for all DB instances in your project is SQLite @done(25-08-06 17:11)
+
+
+	☐ Minor module: Game customization options.
+	includes :
+		✔ ◦ Offer customization features, such as power-ups, attacks, or different maps, that enhance the gameplay experience. @done(25-10-27 13:34)
+		✔ ◦ Allow users to choose a default version of the game with basic features if they prefer a simpler experience. @done(25-08-11 15:42)
+		✔ ◦ Ensure that customization options are available and applicable to all games offered on the platform. @done(25-10-27 13:35)
+		☐ ◦ Implement user-friendly settings menus or interfaces for adjusting game parameters. //front
+		✔ ◦ Maintain consistency in customization features across all games to provide a unified user experience. @done(25-10-27 13:37)
+
+	☐ Create .env for all passwords (users/services/EmailSender.ts, and all SECRETKEY in wsChatRoutes / Auth.ts / UserController.ts)
